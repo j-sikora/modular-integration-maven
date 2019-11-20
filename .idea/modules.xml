@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modular-integration-maven.iml" filepath="$PROJECT_DIR$/modular-integration-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-A/module-A.iml" filepath="$PROJECT_DIR$/module-A/module-A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-B/module-B.iml" filepath="$PROJECT_DIR$/module-B/module-B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-spring/module-spring.iml" filepath="$PROJECT_DIR$/module-spring/module-spring.iml" />
+    </modules>
+  </component>
+</project>
