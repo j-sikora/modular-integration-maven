@@ -1,4 +1,4 @@
-# Maven sample configuration - separated unit tests and integration tests.
+## Maven sample configuration - separated unit tests and integration tests.
 Modular maven project - tests in modules are in separated directories
 Integration tests should be annotated using org.junit.jupiter.api.Tag
 
