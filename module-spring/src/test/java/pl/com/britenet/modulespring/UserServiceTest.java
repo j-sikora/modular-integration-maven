@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 
-@Tag("unit")
 public class UserServiceTest {
     @Test
     public void dummyUnitTest() {

@@ -75,10 +75,9 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>3.0.0-M4</version>
                         <configuration>
-                            <groups>unit</groups>
+<!--                            <groups>unit</groups>-->
                             <excludedGroups>integration</excludedGroups>
                         </configuration>
-
                     </plugin>
                 </plugins>
             </build>
@@ -86,18 +85,6 @@
         <!-- The Configuration of the integration profile -->
         <profile>
             <id>integration</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M4</version>
-                        <configuration>
-                            <groups>unit,integration</groups>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
         </profile>
     </profiles>
 </project>
