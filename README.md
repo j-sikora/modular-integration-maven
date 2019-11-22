@@ -1,8 +1,9 @@
-## Maven sample configuration - separated unit tests and integration tests.
+### Maven sample configuration - separated unit tests and integration tests.
 Modular maven project - tests in modules are in separated directories
-Integration tests should be annotated using org.junit.jupiter.api.Tag
+To exclude integration test in dev profile annotate integration test class using org.junit.jupiter.api.Tag
 
-dev profile (default) - integration tests are excluded
+### Building project
+dev profile (default) - integration tests (with tag integration) are excluded
 mvn clean install
 mvn clean install -P dev
 
